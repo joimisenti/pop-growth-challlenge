@@ -40,3 +40,14 @@ function nbYear (p0, percent, aug, p) {
 nbYear(1500000, 2.5, 10000, 2000000)
 // returns 10
 nbYear(1500, 5, 100, 5000)
+// returns 15
+
+
+// function nbYear(p0, percent, aug, p) {
+//     let years = 0;
+//       percent = percent/100
+//     for (years; p0 < p; years++){ 
+//         p0 += p0 * percent + aug
+//     }
+//     return years
+// }
